@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tammy.Net Tools Page</title>
+	<link rel="stylesheet" type="text/css" href="tammycss/style_new.css"/>
+	<link rel="stylesheet" type="text/css" href="tammycss/style_newconfig.css"/>
+	<link rel="stylesheet" type="text/css" href="tammycss/panel.css"/>
+</head>
+<body>
+<div id="Username">
+	<div>
+	<p id="UsernameLabel">Jeremy Galazin</p>
+	</div>
+</div>
+<div id="maindiv">
+	<div id="navdiv">
+	
+		<ul id="navdivul">
+			<h1>Tammy.Net</h1>
+			<li><a href="/TammyNetLogout.php">Logout</a></li>
+			<li><a style="background-color:#0072BC; href="#">Tools</a></li>
+			<li><a href="/TammyNetHelp.html">Help</a></li>
+			<li id="adminlink"><a href="/TammyNetAdmin.php">Admin</a></li>
+			<li><a href="/TammyNetTAScripts.php">TA Scripts</a></li>
+			<li><a href="/TammyNetHome.php">Home</a></li>
+		</ul>
+	</div>
+	
+<!-- HU Simulator Pop Up
+-------------------------------------------------------------------->
+<div id="HUSimulator">
+<a href="javascript:void(0)" onclick="displayHUSimulator()">HU Simulator</a>
+	<div id="popupbox">
+	<div class="popupboxWrap">
+	</div>
+</div>
+</div>
+
+<!---------------------------------------------------------------------->	
+<script src="jquery-1.12.1.js"></script>
+<script src="/HU_JS_Files/BrowserScreen.js"></script>
+<script src="/HU_JS_Files/HU Simulator_code.js"></script>
+<script src="/HU_JS_Files/NavigationScreen.js"></script>
+<script src="/HU_JS_Files/RadioScreen.js"></script>
+<script src="/HU_JS_Files/Sleep.js"></script>
+<script src="/HU_JS_Files/SteeringWheel.js"></script>
+
+<script>
+function displayHUSimulator() 
+{
+
+	openPopUp();
+	
+}
+</script>
+</body>
+</html>
+
